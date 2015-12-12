@@ -269,12 +269,6 @@
     <ClInclude Include="ZControlFactory.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="ZVideoView.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="ZVideoViewImpl.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="ZUI.rc">

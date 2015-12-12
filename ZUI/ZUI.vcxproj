@@ -164,8 +164,6 @@
     <ClInclude Include="ZuiLib.h" />
     <ClInclude Include="ZUtils.h" />
     <ClInclude Include="ZVerticalLayout.h" />
-    <ClInclude Include="ZVideoView.h" />
-    <ClInclude Include="ZVideoViewImpl.h" />
     <ClInclude Include="ZWindow.h" />
   </ItemGroup>
   <ItemGroup>
