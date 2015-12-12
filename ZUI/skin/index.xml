@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--XML 资源，name and id:将写入到resource.h中的define,type and file :将写入到rc2的资源定义,layer:窗口定义XML，resbuilder使用它来自动为对应的XML生成控件ID-->
+
+<!--皮肤资源文件-->
+<resid type="XML" name="IDR_DUI_INIT"  file="xml\init.xml"  />
+<resid type="XML" name="IDR_DUI_STRING_DEF" file="xml\DuiStringTable.xml" />
+<!--对话框资源文件-->
+<resid type="XML" name="IDR_DUI_LOGIN_DIALOG"   layer="1" file="xml\dlg_login.xml"/>
+<resid type="XML" name="IDR_DUI_PORTABLEDEVICEBACKUP_DIALOG" layer="1" file="xml\dlg_portabledevice_backup.xml"/>
+<resid type="XML" name="IDR_DUI_PORTABLEDEVLIST_DIALOG" layer="1" file="xml\dlg_portabledevice_list.xml"/>
+<resid type="XML" name="IDR_DUI_PT2PT_PANEL" layer="1" file="xml\Pt2PtPanel.xml"/>
+<resid type="XML" name="IDR_DUI_PHONE_PANEL" layer="1" file="xml\PhonePanel.xml"/>
+<resid type="XML" name="IDR_DUI_MENU" file="xml\Menu.xml"/>
+<resid type="XML" name="IDR_DUI_TOAST" file="xml\Toast\Toast.xml"/>
+<resid type="XML" name="IDR_DUI_CLEARSTORAGECACHE_DIALOG" layer="1" file="xml\dlg_clear_storage_cache.xml"/>
+<!--窗口背景资源-->
+<resid type="IMGX" name="IDP_MAIN_DLG_FRAME"    file="image\common\window\windowBkg.png"  />
+<resid type="IMGX" name="IDP_MESSAGEBOX_BACKGROUND_FRAME" file="image\common\window\MsgBxBk_New.png"  />
+
+<!--CheckBox RadioBox等检查框资源-->
+<resid type="IMGX" name="IDP_BTN_WND_CHECKBOX"     file="image\common\checkbox\btn_wnd_checkbox.png"/>
+<resid type="IMGX" name="IDP_BTN_WND_RADIO"  file="image\common\checkbox\btn_wnd_radio.png"   />
+<resid type="IMGX" name="IDP_FOCUS_CHECK"    file="image\common\checkbox\focus_checkbox.png"/>
+<resid type="IMGX" name="IDP_FOCUS_RADIO"    file="image\common\checkbox\focus_radio.png"   />
+
+<!--最大化，最小化，设置等系统资源-->
+<resid type="IMGX" name="IDP_BTN_SYS_SETTING"   file="image\common\system\btn_sys_setting.png"    />
+<resid type="IMGX" name="IDP_BTN_SYS_CLOSE"   file="image\common\system\btn_sys_close.png"    />
+<resid type="IMGX" name="IDP_BTN_SYS_MINIMIZE"  file="image\common\system\btn_sys_minimize.png" />
+<resid type="IMGX" name="IDP_BTN_SYS_MAXIMIZE"  file="image\common\system\btn_sys_maximize.png" />
+<resid type="IMGX" name="IDP_BTN_SYS_RESOTRE"  file="image\common\system\btn_sys_restore.png" />
+
+<!--滚动条资源-->
+<resid type="IMGX" name="IDP_SCROLL"  file="image\common\scrollbar\scrollbar.png" />
+<resid type="IMGX" name="IDP_SCROLL2"  file="image\common\scrollbar\scrollbar2.png" />
+<resid type="IMGX" name="IDP_VSCROLLBAR"  file="image\common\scrollbar\vscrollbar.png" />
+
+<!--文字编辑框资源-->
+<resid type="IMGX" name="IDP_BORDER_EDIT"    file="image\common\edit\img_edit_border.png"   />
+<resid type="IMGX" name="IDP_BORDER_EDIT_SET" file="image\common\edit\img_edit_border_set.png" />
+
+<!--Logo资源-->
+<resid type="IMGX" name="IDP_COMMON_LOGO_MAIN" file="image\common\logo\main_logo.png" />
+
+<!--按钮资源-->
+<resid type="IMGX" name="IDP_BTN_COMMON"    file="image\common\button\button.png"   />
+
+<!--进度条资源-->
+<resid type="IMGX" name="IDP_PROG_BKG"    file="image\common\progress\ProgBkg.png"/>
+<resid type="IMGX" name="IDP_PROG_FRG"    file="image\common\progress\ProgFrg.png"/>
+
+<resid type="IMGX" name="IDP_GIF_LOADING" file="image\common\progress\loading.gif" />
+
+<!--菜单资源-->
+<resid type="IMGX" name="IDP_MENU_ITEMBKG"    file="image\common\menu\MenuNormalBkg.png"   />
+<resid type="IMGX" name="IDP_MENU_BKG"    file="image\common\menu\MenuBkg.png"   />
+<resid type="IMGX" name="IDP_MENU_SEPLINE"    file="image\common\menu\MenuSpliter.png"   />
+<!--Toast资源-->
+<resid type="IMGX" name="IDP_TOAST_BKG"    file="image\common\Toast\ToastBkg.png"   />
+<!--页面控件资源-->
+<resid type="IMGX" name="IDP_PAGECTRL_PREBTN"    file="image\common\pagectrl\PreBtn.png"   />
+<resid type="IMGX" name="IDP_PAGECTRL_NEXTBTN"    file="image\common\pagectrl\NextBtn.png"   />
+<!--登录窗口资源-->
+<resid type="IMGX" name="IDP_LOGIN_BANNER"   file="image\logindlg\logintitle_bg.png" />
+<resid type="IMGX" name="IDP_LOGIN_LOGO"   file="image\logindlg\login_logo.png" />
+<resid type="IMGX" name="IDP_LOGIN_PANEL_BG"   file="image\logindlg\loginpanel_bg.png" />
+<resid type="IMGX" name="IDP_LOGIN_CONTENT_BG"   file="image\logindlg\logincontent_bg.png" />
+<resid type="IMGX" name="IDP_LOGIN_GUIDE_BG"   file="image\logindlg\login_banner.png" />
+<resid type="IMGX" name="IDP_BTN_LOGIN" file="image\logindlg\img_btn_login.png" />
+<resid type="IMGX" name="IDP_DROPBTN"  file="image\common\combobox\dropbtn.png" />
+<resid type="IMGX" name="IDP_IMG_TOOLBAR_BORDER_NORMAL" file="image\LoginDlg\toolbar_border_normal.png" />
+<resid type="IMGX" name="IDP_IMG_TOOLBAR_BORDER_HOVER" file="image\LoginDlg\toolbar_border_hover.png" />
+<resid type="IMGX" name="IDP_IMG_TOOLBAR_BORDER_DOWN" file="image\LoginDlg\toolbar_border_down.png" />
+<resid type="IMGX" name="IDP_IMG_LOGINDLG_THIRDPARTY_QQ" file="image\LoginDlg\logo_qq.png" />
+<resid type="IMGX" name="IDP_IMG_LOGINDLG_THIRDPARTY_RR" file="image\LoginDlg\logo_renren.png" />
+<resid type="IMGX" name="IDP_IMG_LOGINDLG_THIRDPARTY_SINAWEIBO" file="image\LoginDlg\logo_sinaweibo.png" />
+<resid type="IMGX" name="IDP_IMG_LOGIN_LOGO" file="image\LoginDlg\baidu_logo.png" />
+<resid type="IMGX" name="IDP_IMG_LOGIN_TIP_MORNING" file="image\LoginDlg\login_morning.png" />
+<resid type="IMGX" name="IDP_IMG_LOGIN_TIP_NIGHT" file="image\LoginDlg\login_night.png" />
+<resid type="IMGX" name="IDP_IMG_LOGIN_TIP_WATER" file="image\LoginDlg\login_water.png" />
+<resid type="IMGX" name="IDP_IMG_LOGIN_BTN_DELETEACCOUNT" file="image\LoginDlg\btn_delete_account.png" />
+<resid type="IMGX" name="IDP_IMG_LOGIN_BTN_REG" file="image\LoginDlg\btn_reg.png" />
+<resid type="IMGX" name="IDP_IMG_LOGIN_ERROR_ICON" file="image\LoginDlg\icon_error_tip.png" />
+
+<resid type="IMGX" name="IDP_IMG_LOGIN_COMBOBOX_LIST_NORMAL" file="image\LoginDlg\Combo_normal.png" />
+<resid type="IMGX" name="IDP_IMG_LOGIN_COMBOBOX_LIST_DOWN" file="image\LoginDlg\Combo_down.png" />
+
+<resid type="IMGX" name="IDP_IMG_LOGIN_PASSWORD_ICON"  file="image\LoginDlg\passwd.png" />
+<resid type="IMGX" name="IDP_IMG_LOGIN_ACCOUNT_ICON"  file="image\LoginDlg\person.png" />
+<resid type="IMGX" name="IDP_IMG_LOGIN_LIST_ITEM_BG"  file="image\LoginDlg\list_item_bg.png" />
+<resid type="IMGX" name="IDP_IMG_LOGIN_DEFAULT_VCODE"  file="image\LoginDlg\verify_code.png" />
+<!--便携式设备备份相关资源-->
+<resid type="IMGX" name="IDP_IMG_PDB_BTN_REG" file="image\PortableDeviceBackupDlg\btn_onekey_backup.png" />
+<resid type="IMGX" name="IDP_IMG_PDB_LISTVIEW_BG" file="image\PortableDeviceBackupDlg\bg_list_view.png" />
+<resid type="IMGX" name="IDP_IMG_PDB_LISTITEM_DEFAULT_IMAGE" file="image\PortableDeviceBackupDlg\image_default.png" />
+<resid type="IMGX" name="IDP_IMG_PDB_LISTITEM_VIDEO_IMAGE" file="image\PortableDeviceBackupDlg\image_video.png" />
+<resid type="IMGX" name="IDP_IMG_PDB_LISTITEM_SELECTED" file="image\PortableDeviceBackupDlg\item_selected.png" />
+<resid type="IMGX" name="IDP_IMG_PDB_LISTITEM_DESELECTED" file="image\PortableDeviceBackupDlg\item_deselected.png" />
+<resid type="IMGX" name="IDP_IMG_PDB_LISTITEM_HOVER" file="image\PortableDeviceBackupDlg\item_hover.png" />
+
+<!--数据线面板相关资源-->
+<resid type="IMGX" name="IDP_IMG_DATACABLE_PANEL_BKG" file="image\MainPanel\DataCablePanel\PanelBkg.png" />
+<resid type="IMGX" name="IDP_IMG_DATACABLE_DEFAULT_BTN" file="image\MainPanel\DataCablePanel\DefaultBtn.png" />
+<resid type="IMGX" name="IDP_GIF_DATACABLE_CONNECTING" file="image\MainPanel\DataCablePanel\Connecting.gif" />
+<resid type="IMGX" name="IDP_IMG_DATACABLE_USERGUIDE" file="image\MainPanel\DataCablePanel\Guide.png" />
+<resid type="IMGX" name="IDP_IMG_DATACABLE_QRCODE" file="image\MainPanel\DataCablePanel\QrCode.png" />
+<resid type="IMGX" name="IDP_IMG_DATACABLE_PHONE" file="image\MainPanel\DataCablePanel\Phone.png" />
+<resid type="IMGX" name="IDP_IMG_DATACABLE_ADDFILE" file="image\MainPanel\DataCablePanel\AddFile.png" />
+<resid type="IMGX" name="IDP_IMG_DATACABLE_FRAME_BKG" file="image\MainPanel\DataCablePanel\FrameBkg.png" />
+<resid type="IMGX" name="IDP_IMG_DATACABLE_SEND_BTN" file="image\MainPanel\DataCablePanel\SendBtn.png" />
+<resid type="IMGX" name="IDP_IMG_DATACABLE_PC_IMAGE" file="image\MainPanel\DataCablePanel\PcThumb.png" />
+<resid type="IMGX" name="IDP_IMG_DATACABLE_PHONE_IMAGE" file="image\MainPanel\DataCablePanel\PhoneThumb.png" />
+<resid type="IMGX" name="IDP_IMG_DATACABLE_OPENFILE_BTN" file="image\MainPanel\DataCablePanel\OpenFileBtn.png" />
+<resid type="IMGX" name="IDP_IMG_DATACABLE_OPENFOLDER_BTN" file="image\MainPanel\DataCablePanel\OpenFolderBtn.png" />
+<resid type="IMGX" name="IDP_IMG_DATACABLE_UPLOAD_BTN" file="image\MainPanel\DataCablePanel\UpBtn.png" />
+<resid type="IMGX" name="IDP_IMG_DATACABLE_DEL_BTN" file="image\MainPanel\DataCablePanel\DelBtn.png" />
+<resid type="IMGX" name="IDP_IMG_DATACABLE_ERROR_IMAGE" file="image\MainPanel\DataCablePanel\Error.png" />
+<resid type="IMGX" name="IDP_IMG_DATACABLE_PHONEITEM_BKG" file="image\MainPanel\DataCablePanel\PhoneItemBkg.png" />
+<resid type="IMGX" name="IDP_IMG_DATACABLE_PHONEITEM_HOVERBKG" file="image\MainPanel\DataCablePanel\PhoneItemHoverBkg.png" />
+<resid type="IMGX" name="IDP_IMG_DATACABLE_PHONEITEM_DOWNBKG" file="image\MainPanel\DataCablePanel\PhoneItemDownBkg.png" />
+<resid type="IMGX" name="IDP_IMG_DATACABLE_PHONEFOLDER_BKG" file="image\MainPanel\DataCablePanel\PhoneFolderBkg.png" />
+<resid type="IMGX" name="IDP_IMG_DATACABLE_PHONEFOLDER_HOVERBKG" file="image\MainPanel\DataCablePanel\PhoneFolderHoverBkg.png" />
+<resid type="IMGX" name="IDP_IMG_DATACABLE_PHONEFOLDER_DOWNBKG" file="image\MainPanel\DataCablePanel\PhoneFolderDownBkg.png" />
+<resid type="IMGX" name="IDP_IMG_DATACABLE_PCITEM_BKG" file="image\MainPanel\DataCablePanel\PcItemBkg.png" />
+<resid type="IMGX" name="IDP_IMG_DATACABLE_PCITEM_HOVERBKG" file="image\MainPanel\DataCablePanel\PcItemHoverBkg.png" />
+<resid type="IMGX" name="IDP_IMG_DATACABLE_PCITEM_DOWNBKG" file="image\MainPanel\DataCablePanel\PcItemDownBkg.png" />
+<resid type="IMGX" name="IDP_IMG_DATACABLE_PCFOLDER_BKG" file="image\MainPanel\DataCablePanel\PcFolderBkg.png" />
+<resid type="IMGX" name="IDP_IMG_DATACABLE_PCFOLDER_HOVERBKG" file="image\MainPanel\DataCablePanel\PcFolderHoverBkg.png" />
+<resid type="IMGX" name="IDP_IMG_DATACABLE_PCFOLDER_DOWNBKG" file="image\MainPanel\DataCablePanel\PcFolderDownBkg.png" />
+<resid type="IMGX" name="IDP_IMG_DATACABLE_MIDITEM_BKG" file="image\MainPanel\DataCablePanel\MidItemBkg.png" />
+<resid type="IMGX" name="IDP_IMG_DATACABLE_MIDITEM_HOVERBKG" file="image\MainPanel\DataCablePanel\MidItemHoverBkg.png" />
+<resid type="IMGX" name="IDP_IMG_DATACABLE_MIDITEM_DOWNBKG" file="image\MainPanel\DataCablePanel\MidItemDownBkg.png" />
+<resid type="IMGX" name="IDP_IMG_DATACABLE_BOTTOMITEM_BKG" file="image\MainPanel\DataCablePanel\BottomItemBkg.png" />
+<resid type="IMGX" name="IDP_IMG_DATACABLE_BOTTOMITEM_HOVERBKG" file="image\MainPanel\DataCablePanel\BottomItemHoverBkg.png" />
+<resid type="IMGX" name="IDP_IMG_DATACABLE_BOTTOMITEM_DOWNBKG" file="image\MainPanel\DataCablePanel\BottomItemDownBkg.png" />
+<!--手机忘带相关资源-->
+<resid type="IMGX" name="IDP_IMG_PHONE_PANEL_BKG" file="image\MainPanel\PhonePanel\PanelBkg.png" />
+<resid type="IMGX" name="IDP_IMG_PHONE_GUIDE" file="image\MainPanel\PhonePanel\PhoneGuide.png" />
+<resid type="IMGX" name="IDP_IMG_PHONE_CALLIN_TYPE" file="image\MainPanel\PhonePanel\CallIn.png" />
+<resid type="IMGX" name="IDP_IMG_PHONE_CALLOUT_TYPE" file="image\MainPanel\PhonePanel\CallOut.png" />
+<resid type="IMGX" name="IDP_IMG_PHONE_UNRECV_TYPE" file="image\MainPanel\PhonePanel\Unrecv.png" />
+<resid type="IMGX" name="IDP_IMG_PHONE_HOVERITEM_BKG" file="image\MainPanel\PhonePanel\ItemHoverBkg.png" />
+<resid type="IMGX" name="IDP_IMG_PHONE_DOWNITEM_BKG" file="image\MainPanel\PhonePanel\ItemDownBkg.png" />
+<resid type="IMGX" name="IDP_IMG_PHONE_COPYMSG_BTN" file="image\MainPanel\PhonePanel\CopyMsgBtn.png" />
+<resid type="IMGX" name="IDP_IMG_PHONE_CONNECT_BTN" file="image\MainPanel\PhonePanel\ConnectBtn.png" />
+<resid type="IMGX" name="IDP_IMG_PHONE_OPPANEL_BKG" file="image\MainPanel\PhonePanel\PhoneOpPanelBkg.png" />
+<resid type="IMGX" name="IDP_IMG_PHONE_TABBTN_BKG" file="image\MainPanel\PhonePanel\TabBtn.png" />
+<resid type="IMGX" name="IDP_IMG_PHONE_TABBTNUNSEL_BKG" file="image\MainPanel\PhonePanel\TabBtnUnsel.png" />
+<resid type="IMGX" name="IDP_IMG_PHONE_DISCONNECT_BTN" file="image\MainPanel\PhonePanel\Disconnect.png" />
+<resid type="IMGX" name="IDP_IMG_PHONE_REFRESH_BTN" file="image\MainPanel\PhonePanel\RefreshBtn.png" />
+<resid type="IMGX" name="IDP_IMG_PHONE_MSG" file="image\MainPanel\PhonePanel\Msg.png" />
+<resid type="IMGX" name="IDP_IMG_PHONE_ANDORID" file="image\MainPanel\PhonePanel\Phone.png" />
+<resid type="IMGX" name="IDP_IMG_PHONE_NEW_MSGANDCALL" file="image\MainPanel\PhonePanel\NewIcon.png" />
+<resid type="IMGX" name="IDP_IMG_PHONE_ERROR" file="image\MainPanel\PhonePanel\PhoneError.png" />
+<resid type="IMGX" name="IDP_IMG_PHONE_EMPTY" file="image\MainPanel\PhonePanel\PhoneEmpty.png" />
+<resid type="IMGX" name="IDP_IMG_PHONE_LOADING" file="image\MainPanel\PhonePanel\PhoneLoading.png" />
+<!--文件类型相关资源-->
+<resid type="IMGX" name="IDP_IMG_FILETYPE_MIDDLE_VIDEO" file="image\FileType\Middle\VideoType.png" />
+<resid type="IMGX" name="IDP_IMG_FILETYPE_MIDDLE_AUDIO" file="image\FileType\Middle\MusicType.png" />
+<resid type="IMGX" name="IDP_IMG_FILETYPE_MIDDLE_IMAGE" file="image\FileType\Middle\ImgType.png" />
+<resid type="IMGX" name="IDP_IMG_FILETYPE_MIDDLE_RAR" file="image\FileType\Middle\RarType.png" />
+<resid type="IMGX" name="IDP_IMG_FILETYPE_MIDDLE_EXE" file="image\FileType\Middle\ExeType.png" />
+<resid type="IMGX" name="IDP_IMG_FILETYPE_MIDDLE_IPA" file="image\FileType\Middle\IpaType.png" />
+<resid type="IMGX" name="IDP_IMG_FILETYPE_MIDDLE_APK" file="image\FileType\Middle\ApkType.png" />
+<resid type="IMGX" name="IDP_IMG_FILETYPE_MIDDLE_TXT" file="image\FileType\Middle\TxtType.png" />
+<resid type="IMGX" name="IDP_IMG_FILETYPE_MIDDLE_XLS" file="image\FileType\Middle\XlsType.png" />
+<resid type="IMGX" name="IDP_IMG_FILETYPE_MIDDLE_DOC" file="image\FileType\Middle\DocType.png" />
+<resid type="IMGX" name="IDP_IMG_FILETYPE_MIDDLE_PPT" file="image\FileType\Middle\PptType.png" />
+<resid type="IMGX" name="IDP_IMG_FILETYPE_MIDDLE_PDF" file="image\FileType\Middle\PdfType.png" />
+<resid type="IMGX" name="IDP_IMG_FILETYPE_MIDDLE_VSD" file="image\FileType\Middle\VsdType.png" />
+<resid type="IMGX" name="IDP_IMG_FILETYPE_MIDDLE_TORRENT" file="image\FileType\Middle\TorrentType.png" />
+<resid type="IMGX" name="IDP_IMG_FILETYPE_MIDDLE_CAD" file="image\FileType\Middle\CADType.png" />
+<resid type="IMGX" name="IDP_IMG_FILETYPE_MIDDLE_OTHER" file="image\FileType\Middle\OtherType.png" />
+<resid type="IMGX" name="IDP_IMG_FILETYPE_MIDDLE_APPS" file="image\FileType\Middle\Apps.png" />
+<resid type="IMGX" name="IDP_IMG_FILETYPE_MIDDLE_FOLDER" file="image\FileType\Middle\FolderType.png" />
+
+
+
+
+

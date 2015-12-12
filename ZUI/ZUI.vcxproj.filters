@@ -1,0 +1,284 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="libs">
+      <UniqueIdentifier>{e1112963-c7ec-4591-a204-c105e2db6a8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\gfx">
+      <UniqueIdentifier>{396fc7d2-0f84-4039-b95c-29f6484b34ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\base">
+      <UniqueIdentifier>{d6d06535-c14a-4703-9ad5-0c9f0ae0194d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\base\malloc">
+      <UniqueIdentifier>{f2070292-590f-46f6-8c59-8ff93ebf9ff4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\xml">
+      <UniqueIdentifier>{86c342d9-5d0e-4c92-bdb7-e1a3bac0b686}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sdl_gfx\SDL2_framerate.c">
+      <Filter>libs\gfx</Filter>
+    </ClCompile>
+    <ClCompile Include="sdl_gfx\SDL2_gfxPrimitives.c">
+      <Filter>libs\gfx</Filter>
+    </ClCompile>
+    <ClCompile Include="sdl_gfx\SDL2_rotozoom.c">
+      <Filter>libs\gfx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\base\common.cc">
+      <Filter>libs\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\base\event.cc">
+      <Filter>libs\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\base\messagequeue.cc">
+      <Filter>libs\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\base\thread.cc">
+      <Filter>libs\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\base\time.cc">
+      <Filter>libs\base</Filter>
+    </ClCompile>
+    <ClCompile Include="ZUtils.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ZCommon.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\base\malloc\nedmalloc.c">
+      <Filter>libs\base\malloc</Filter>
+    </ClCompile>
+    <ClCompile Include="ZString.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ZControl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ZRenerder.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\base\RefBase.cpp">
+      <Filter>libs\base</Filter>
+    </ClCompile>
+    <ClCompile Include="ZTexture.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ZPaintManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ZWindow.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tinyxml2\tinyxml2.cpp">
+      <Filter>libs\xml</Filter>
+    </ClCompile>
+    <ClCompile Include="ZApplication.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ZFont.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ZLabel.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ZButton.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ZOption.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ZProgress.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ZSlider.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ZScrollBar.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ZContainer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ZVerticalLayout.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ZHorizontalLayout.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ZTabLayout.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ZLayout.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ZBuilder.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ZControlFactory.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="sdl_gfx\SDL2_framerate.h">
+      <Filter>libs\gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="sdl_gfx\SDL2_gfxPrimitives.h">
+      <Filter>libs\gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="sdl_gfx\SDL2_gfxPrimitives_font.h">
+      <Filter>libs\gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="sdl_gfx\SDL2_rotozoom.h">
+      <Filter>libs\gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\base\basictypes.h">
+      <Filter>libs\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\base\common.h">
+      <Filter>libs\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\base\constructormagic.h">
+      <Filter>libs\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\base\criticalsection.h">
+      <Filter>libs\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\base\event.h">
+      <Filter>libs\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\base\scoped_ptr.h">
+      <Filter>libs\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\base\sigslot.h">
+      <Filter>libs\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\base\messagequeue.h">
+      <Filter>libs\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\base\thread.h">
+      <Filter>libs\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\base\time.h">
+      <Filter>libs\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\base\tls.h">
+      <Filter>libs\base</Filter>
+    </ClInclude>
+    <ClInclude Include="ZUtils.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ZCommon.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\base\malloc\malloc.c.h">
+      <Filter>libs\base\malloc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\base\malloc\nedmalloc.h">
+      <Filter>libs\base\malloc</Filter>
+    </ClInclude>
+    <ClInclude Include="ZString.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ZControl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ZRenerder.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\base\RefBase.h">
+      <Filter>libs\base</Filter>
+    </ClInclude>
+    <ClInclude Include="ZTexture.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ZPaintManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ZWindow.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tinyxml2\tinyxml2.h">
+      <Filter>libs\xml</Filter>
+    </ClInclude>
+    <ClInclude Include="ZApplication.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ZFont.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ZLabel.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ZButton.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ZOption.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ZProgress.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ZSlider.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ZScrollBar.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ZContainer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ZVerticalLayout.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ZuiLib.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ZHorizontalLayout.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ZTabLayout.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ZLayout.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ZBuilder.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ZControlFactory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ZVideoView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ZVideoViewImpl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ZUI.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

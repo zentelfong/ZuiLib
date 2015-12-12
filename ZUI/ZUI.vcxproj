@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{377F1108-C07D-40AA-B93A-4271FC29D0E6}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>ZUI</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>../Debug/</OutDir>
+    <IntDir>../Debug/</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>../Release/</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>../;../sdl/include;ffmpeg;</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_image.lib;SDL2_ttf.lib;libfreetype-6.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>ffmpeg\lib;../debug</AdditionalLibraryDirectories>
+      <ProgramDatabaseFile>$(TargetDir)$(TargetName).pdb</ProgramDatabaseFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>../sdl/include;ffmpeg;</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_image.lib;libfreetype-6.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>ffmpeg\lib;../Release/</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\base\common.cc" />
+    <ClCompile Include="..\base\event.cc" />
+    <ClCompile Include="..\base\malloc\nedmalloc.c" />
+    <ClCompile Include="..\base\messagequeue.cc" />
+    <ClCompile Include="..\base\RefBase.cpp" />
+    <ClCompile Include="..\base\thread.cc" />
+    <ClCompile Include="..\base\time.cc" />
+    <ClCompile Include="..\tinyxml2\tinyxml2.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="sdl_gfx\SDL2_framerate.c" />
+    <ClCompile Include="sdl_gfx\SDL2_gfxPrimitives.c" />
+    <ClCompile Include="sdl_gfx\SDL2_rotozoom.c" />
+    <ClCompile Include="ZApplication.cpp" />
+    <ClCompile Include="ZBuilder.cpp" />
+    <ClCompile Include="ZButton.cpp" />
+    <ClCompile Include="ZCommon.cpp" />
+    <ClCompile Include="ZContainer.cpp" />
+    <ClCompile Include="ZControl.cpp" />
+    <ClCompile Include="ZControlFactory.cpp" />
+    <ClCompile Include="ZFont.cpp" />
+    <ClCompile Include="ZHorizontalLayout.cpp" />
+    <ClCompile Include="ZLabel.cpp" />
+    <ClCompile Include="ZLayout.cpp" />
+    <ClCompile Include="ZOption.cpp" />
+    <ClCompile Include="ZPaintManager.cpp" />
+    <ClCompile Include="ZProgress.cpp" />
+    <ClCompile Include="ZRenerder.cpp" />
+    <ClCompile Include="ZScrollBar.cpp" />
+    <ClCompile Include="ZSlider.cpp" />
+    <ClCompile Include="ZString.cpp" />
+    <ClCompile Include="ZTabLayout.cpp" />
+    <ClCompile Include="ZTexture.cpp" />
+    <ClCompile Include="ZUtils.cpp" />
+    <ClCompile Include="ZVerticalLayout.cpp" />
+    <ClCompile Include="ZWindow.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\base\basictypes.h" />
+    <ClInclude Include="..\base\common.h" />
+    <ClInclude Include="..\base\constructormagic.h" />
+    <ClInclude Include="..\base\criticalsection.h" />
+    <ClInclude Include="..\base\event.h" />
+    <ClInclude Include="..\base\malloc\malloc.c.h" />
+    <ClInclude Include="..\base\malloc\nedmalloc.h" />
+    <ClInclude Include="..\base\messagequeue.h" />
+    <ClInclude Include="..\base\RefBase.h" />
+    <ClInclude Include="..\base\scoped_ptr.h" />
+    <ClInclude Include="..\base\sigslot.h" />
+    <ClInclude Include="..\base\thread.h" />
+    <ClInclude Include="..\base\time.h" />
+    <ClInclude Include="..\base\tls.h" />
+    <ClInclude Include="..\tinyxml2\tinyxml2.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="sdl_gfx\SDL2_framerate.h" />
+    <ClInclude Include="sdl_gfx\SDL2_gfxPrimitives.h" />
+    <ClInclude Include="sdl_gfx\SDL2_gfxPrimitives_font.h" />
+    <ClInclude Include="sdl_gfx\SDL2_rotozoom.h" />
+    <ClInclude Include="ZApplication.h" />
+    <ClInclude Include="ZBuilder.h" />
+    <ClInclude Include="ZButton.h" />
+    <ClInclude Include="ZCommon.h" />
+    <ClInclude Include="ZContainer.h" />
+    <ClInclude Include="ZControl.h" />
+    <ClInclude Include="ZControlFactory.h" />
+    <ClInclude Include="ZFont.h" />
+    <ClInclude Include="ZHorizontalLayout.h" />
+    <ClInclude Include="ZLabel.h" />
+    <ClInclude Include="ZLayout.h" />
+    <ClInclude Include="ZOption.h" />
+    <ClInclude Include="ZPaintManager.h" />
+    <ClInclude Include="ZProgress.h" />
+    <ClInclude Include="ZRenerder.h" />
+    <ClInclude Include="ZScrollBar.h" />
+    <ClInclude Include="ZSlider.h" />
+    <ClInclude Include="ZString.h" />
+    <ClInclude Include="ZTabLayout.h" />
+    <ClInclude Include="ZTexture.h" />
+    <ClInclude Include="ZuiLib.h" />
+    <ClInclude Include="ZUtils.h" />
+    <ClInclude Include="ZVerticalLayout.h" />
+    <ClInclude Include="ZVideoView.h" />
+    <ClInclude Include="ZVideoViewImpl.h" />
+    <ClInclude Include="ZWindow.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ZUI.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

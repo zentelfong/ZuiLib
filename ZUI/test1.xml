@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Window mininfo="200,360" size="360,600">
+	<Font name="幼圆" size="12" default="true" />
+	<Font name="微软雅黑" size="18" />
+	
+	<Default name="VScrollBar" value="button1normalimage=&quot;file='scrollbar.png' source='0,90,16,106' &quot; button1hotimage=&quot;file='scrollbar.png' source='18,90,34,106' &quot; button1pushedimage=&quot;file='scrollbar.png' source='36,90,52,106' &quot; button1disabledimage=&quot;file='scrollbar.png' source='54,90,70,106' &quot; button2normalimage=&quot;file='scrollbar.png' source='0,108,16,124' &quot; button2hotimage=&quot;file='scrollbar.png' source='18,108,34,124' &quot; button2pushedimage=&quot;file='scrollbar.png' source='36,108,52,124' &quot; button2disabledimage=&quot;file='scrollbar.png' source='54,108,70,124' &quot; thumbnormalimage=&quot;file='scrollbar.png' source='0,126,16,142' corner='2,2,2,2' &quot; thumbhotimage=&quot;file='scrollbar.png' source='18,126,34,142' corner='2,2,2,2' &quot; thumbpushedimage=&quot;file='scrollbar.png' source='36,126,52,142' corner='2,2,2,2' &quot; thumbdisabledimage=&quot;file='scrollbar.png' source='54,126,70,142' corner='2,2,2,2' &quot; railnormalimage=&quot;file='scrollbar.png' source='0,144,16,160' corner='2,2,2,2' &quot; railhotimage=&quot;file='scrollbar.png' source='18,144,34,160' corner='2,2,2,2' &quot; railpushedimage=&quot;file='scrollbar.png' source='36,144,52,160' corner='2,2,2,2' &quot; raildisabledimage=&quot;file='scrollbar.png' source='54,144,70,160' corner='2,2,2,2' &quot; bknormalimage=&quot;file='scrollbar.png' source='0,162,16,178' corner='2,2,2,2' &quot; bkhotimage=&quot;file='scrollbar.png' source='18,162,34,178' corner='2,2,2,2' &quot; bkpushedimage=&quot;file='scrollbar.png' source='36,162,52,178' corner='2,2,2,2' &quot; bkdisabledimage=&quot;file='scrollbar.png' source='54,162,70,178' corner='2,2,2,2' &quot; " />
+
+	<Default name="Slider" value="thumbsize=&quot;10,10&quot; bkimage=&quot;file='bg.png' corner='6,0,6,0' &quot; foreimage=&quot;file='fg.png' corner='6,0,6,0' &quot; thumbimage=&quot;file='thumb.png' source='30,0,40,10' mask='#FFDAEBF9'&quot; thumbhotimage=&quot;file='thumb.png' source='10,0,20,10' mask='#FFDAEBF9'&quot; " />	
+	
+	<Default name="Button" value="textcolor=&quot;#000000&quot; hottextcolor=&quot;#FFFFFF&quot; focusedtextcolor=&quot;#000000&quot; pushedtextcolor=&quot;#77a8de&quot; normalimage=&quot;file='Button/btn.png' corner='5,11,5,11' source='0,0,96,24'&quot; hotimage=&quot;file='Button/btn.png' corner='5,11,5,11' source='0,24,96,48'&quot; pushedimage=&quot;file='Button/btn.png' corner='5,11,5,11' source='0,48,96,72'&quot; disabledimage=&quot;file='Button/btn.png' corner='5,11,5,11' source='0,72,96,96'&quot;" />
+	
+	<Default name="Option" value="textcolor=&quot;#FFbac0c5&quot; hottextcolor=&quot;#FF386382&quot; selectedtextcolor=&quot;#FF386382&quot; disabledtextcolor=&quot;#FFbac0c5&quot; textpadding=&quot;18,2,0,0&quot; align=&quot;left&quot; selectedimage=&quot;file='Button/RadioBtnSel.png' source='0,0,13,13' dest='0,5,14,19'&quot; normalimage=&quot;file='Button/RadioBtnNon.png' source='0,0,13,13' dest='0,5,14,19'&quot;" />
+	<VerticalLayout bkcolor="#FFEA679F" inset="10,40,10,6">
+	<VerticalLayout bkimage="file='voice_rect.png' xtiled='true' ytiled='true'" vscrollbar="true" childpadding="5">
+		<!--如果richedit在窗口内是第一个获得焦点的，会出现一个光标刷新bug，暂无解决办法-->
+		<Slider name="alpha_controlor" min="20" max="255" value="255"/>
+		<Button name="changeskinbtn" height="40" witdh="120" maxwidth="120" text="你好1"/>
+		<Button name="changeskinbtn" height="40" witdh="120" maxwidth="120" text="你好2"/>
+		<Button name="changeskinbtn" height="40" witdh="120" maxwidth="120" text="你好3"/>
+		<Button name="changeskinbtn" height="40" witdh="120" maxwidth="120" text="你好4"/>
+		<Button name="changeskinbtn" height="40" witdh="120" maxwidth="120" text="你好5"/>
+		<Button name="changeskinbtn" height="40" witdh="120" maxwidth="120" text="你好6"/>
+		<Button name="changeskinbtn" height="40" witdh="120" maxwidth="120" text="你好7"/>
+		<Button name="changeskinbtn" height="40" witdh="120" maxwidth="120" text="你好8"/>
+		<Button name="changeskinbtn" height="40" witdh="120" maxwidth="120" text="你好9"/>
+		<Button name="changeskinbtn" height="40" witdh="120" maxwidth="120" text="你好1"/>
+		<Button name="changeskinbtn" height="40" witdh="120" maxwidth="120" text="你好2"/>
+		<Button name="changeskinbtn" height="40" witdh="120" maxwidth="120" text="你好3"/>
+		<Button name="changeskinbtn" height="40" witdh="120" maxwidth="120" text="你好"/>
+		<Button name="changeskinbtn" height="40" witdh="120" maxwidth="120" text="你好"/>
+		<Button name="changeskinbtn" height="40" witdh="120" maxwidth="120" text="你好"/>
+		<Button name="changeskinbtn" height="40" witdh="120" maxwidth="120" text="你好"/>
+		<Button name="changeskinbtn" height="40" witdh="120" maxwidth="120" text="你好"/>
+		<Button name="changeskinbtn" height="40" witdh="120" maxwidth="120" text="你好"/>
+		<Button name="changeskinbtn" height="40" witdh="120" maxwidth="120" text="你好"/>
+		<Button name="changeskinbtn" height="40" witdh="120" maxwidth="120" text="你好"/>
+		<Button name="changeskinbtn" height="40" witdh="120" maxwidth="120" text="你好"/>
+		<Button name="changeskinbtn" height="40" witdh="120" maxwidth="120" text="你好"/>
+		<Button name="changeskinbtn" height="40" witdh="120" maxwidth="120" text="你好"/>
+		<Button name="changeskinbtn" height="40" witdh="120" maxwidth="120" text="你好"/>
+		<Button name="changeskinbtn" height="40" witdh="120" maxwidth="120" text="你好"/>
+		<Button name="changeskinbtn" height="40" witdh="120" maxwidth="120" text="你好"/>
+		<Button name="changeskinbtn" height="40" witdh="120" maxwidth="120" text="你好"/>
+		<Button name="changeskinbtn" height="40" witdh="120" maxwidth="120" text="你好"/>
+		<Button name="changeskinbtn" height="40" witdh="120" maxwidth="120" text="你好"/>
+		<Button name="changeskinbtn" height="40" witdh="120" maxwidth="120" text="你好"/>
+		<Button name="changeskinbtn" height="40" witdh="120" maxwidth="120" text="你好"/>
+		<Button name="changeskinbtn" height="40" witdh="120" maxwidth="120" text="你好"/>
+		<Button name="changeskinbtn" height="40" witdh="120" maxwidth="120" text="你好"/>
+		<Button name="changeskinbtn" height="40" witdh="120" maxwidth="120" text="你好"/>
+		<Button name="changeskinbtn" height="40" witdh="120" maxwidth="120" text="你好"/>		
+		<Slider name="h_controlor" max="360" value="180"/>
+		<Control height="40"/>
+		<Slider name="s_controlor" max="200" value="100"/>
+		<Control height="40"/>
+		<Slider name="l_controlor" max="200" value="100"/>
+
+		<Control height="500"/>
+
+	</VerticalLayout>
+
+	</VerticalLayout>
+</Window>
